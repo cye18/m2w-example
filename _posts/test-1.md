@@ -5,6 +5,7 @@ tags:
 - tag-2
 categories:
 - c-1
+- c-2
 ---
 
 this is a test

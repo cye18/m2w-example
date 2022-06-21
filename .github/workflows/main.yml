@@ -5,7 +5,7 @@ name: m2w-example
 on:
   push:
     paths:
-      - 'posts/*'
+      - '_posts/*'
     branches:    
       - main
       - dev
