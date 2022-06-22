@@ -1,14 +1,13 @@
 env:
-  M2W_VERSION: 0.1.0-test
+  M2W_VERSION: ${{ secrets.M2W_VERSION }}
 
 name: m2w-example
 on:
   push:
     paths:
-      - '_posts/*'
+      - 'posts/*'
     branches:    
       - main
-      - dev
 jobs:
   push:
       runs-on: ${{ matrix.operating-system }}
